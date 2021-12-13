@@ -1,0 +1,15 @@
+# Log files
+*.log
+
+# Nextflow logs and app files
+nextflow
+.nextflow
+.command.trace
+
+# Nextflow input/output and working directories
+input*
+output*
+.work*
+
+# Python caching
+**/__pycache__/

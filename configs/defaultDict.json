@@ -1,0 +1,40 @@
+{
+  "sequencerRunId": {
+    "old": "input_sequencer_run",
+    "new": "output_sequencer_run"
+  },
+  "samples": [
+    {
+      "old": "input_accession1",
+      "new": "output_accession1"
+    },
+    {
+      "old": "input_accession2",
+      "new": "output_accession2"
+    },
+    {
+      "old": "input_accession3",
+      "new": "output_accession3"
+    },
+    {
+      "old": "input_accession4",
+      "new": "output_accession4"
+    },
+    {
+      "old": "input_accession5",
+      "new": "output_accession5"
+    },
+    {
+      "old": "input_accession6",
+      "new": "output_accession6"
+    },
+    {
+      "old": "input_accession7",
+      "new": "output_accession7"
+    },
+    {
+      "old": "control_sample_accession",
+      "new": "control_sample_accession"
+    }
+  ]
+}
