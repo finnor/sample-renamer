@@ -1,8 +1,14 @@
 # sample-renamer
 Renames samples to use a new accession and run id in the file names as well as internally inside each file.
 
-## Run Help
-./nextflow run -w ./.work rename.nf --input ./input/input_folder --fileDictionary configs/defaultDict.json -resume
+## Usage
+    ./nextflow -log logs/nextflow.log run -w ./.work rename.nf --input ./input/input_folder --fileDictionary configs/defaultDict.json -resume
+
+## Usage HaloPlex
+    ./nextflow -log logs/nextflow.log run -w ./.work rename.nf --input ./input/HaloPlex --fileDictionary configs/haloplexDict.json -resume
+
+## Usage - Archer FusionPlex
+    ./nextflow -log logs/nextflow.log run -w ./.work rename.nf --input ./input/Archer --fileDictionary configs/archerDict.json -resume
 
 ## Supported Extensions
 * txt
@@ -16,7 +22,7 @@ Renames samples to use a new accession and run id in the file names as well as i
 * html
 
 ## Unsupported extensions
-The following file extensions are copied with alteration from the input folder
+The following file extensions are copied without alteration from the input folder
 * pdf
 * idx
 
